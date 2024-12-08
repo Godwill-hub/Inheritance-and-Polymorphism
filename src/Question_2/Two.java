@@ -4,9 +4,11 @@ public class Two extends One{
     String Carname;
 
     Two(String Carname, int Timetotake) {
+
         super(Carname, Timetotake);
     }
     public void enter(){
+
         System.out.println("Just getting in");
     }
 

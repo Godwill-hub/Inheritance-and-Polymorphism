@@ -9,9 +9,11 @@ public class One {
         this.Timetotake=Timetotake;
     }
     public void enter(){
+
         System.out.println("Enter your car");
     }
     public void Castout(){
+
         System.out.println("Below is what am driving and the time i will take");
     }
     public void Castout(int timetotake){

@@ -4,9 +4,11 @@ public class Three extends One{
     String Carname;
 
     Three(String Carname, int Timetotake) {
+
         super(Carname, Timetotake);
     }
     public void enter(){
+
         System.out.println("Jumping in, in 10seconds");
     }
     public void setCastout(int timetotake){
